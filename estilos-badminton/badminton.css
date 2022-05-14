@@ -1,0 +1,148 @@
+/*.container-centrado
+{
+	text-align: center;
+	background-color: black;
+}
+div.container-centrado
+{
+	font-family: Cooper Black, Helvetica, sans-serif;
+
+}*/
+
+.nav{min-width: 400px;}
+
+
+
+.nav-item.nav-link.active, .nav-item.nav-link:hover, .dropdown:hover
+{
+	background-color: black;
+	color: white!important;	
+}
+@media only screen and (min-width: 768px) {
+
+	.nav-item.nav-link{	line-height: 44px;	}
+}
+/*
+#subtitulo
+{
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+#texto1
+{
+	background-color: black;
+	color: white;
+	font-family: Comic Sans Ms, Helvetica, sans-serif;
+}
+#texto2
+{
+	background-color: white;
+	font-family: Harrington, Helvetica, sans-serif;
+}*/
+footer{
+	padding-bottom: 30px;
+	margin-top: 8px;	
+	width: 100%;
+	z-index: 1 !important;
+	text-align: center;
+}
+.footer-container{
+	background-color: black;
+	color: white;	
+}
+#links-jogadores
+{
+	text-align: center;
+}
+
+.support-buttons{text-align:center;}
+.support-buttons .btn{padding:10px;text-align:center;min-width:185px;}
+.support-buttons .fa{padding-right:5px;font-size:20px;}
+.support-buttons strong{font-size:20px}
+.support-buttons a{margin-left:10px;}
+
+
+#historia{
+	font-family: Comic Sans Ms, Helvetica, sans-serif;
+}/*
+@media screen and (max-width: 1120px) and (min-width: 420px)
+{
+	.img-house{max-width: 500px; max-height: 400px;}
+
+}*/
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+color: white;
+border: 0;
+outline: 0;
+background: none;
+width: 0;
+/*caret-color:transparent;*/
+line-height: 40px;
+/*transition: width 0.4s linear;*/
+}
+
+.searchbar:hover > .search_input{
+/*padding: 0 10px;
+width: 450px;*/
+width:200px;
+caret-color:white;
+/*transition: width 0.4s linear;*/
+}
+
+/*.searchbar:hover > .search_icon{
+background: white;
+color: #e74c3c;
+}*/
+
+/*.search_icon{
+/*height: 40px;
+width: 40px;
+float: right;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color:white!important;
+}*/
+/*
+.dropdown-menu{
+	background-color: gray!important;
+}*/
+
+a.dropdown-item:hover{
+	background-color: black;
+	color: white;
+}
+    /*.carousel-indicators-numbers {
+	    	li {
+	      text-indent: 0;
+	      margin: 0 2px;
+	      width: 30px;
+	      height: 30px;
+	      border: none;
+	      border-radius: 100%;
+	      line-height: 30px;
+	      color: #fff;
+	      background-color: #999;
+	      transition: all 0.25s ease;
+	      &.active, &:hover {
+	        margin: 0 2px;
+	        width: 30px;
+	        height: 30px;
+	        background-color: #337ab7;        
+	      }
+   	}
+}*/
+.jogador{
+	font-size: 25px;
+}

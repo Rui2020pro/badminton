@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+#titulo
+{
+	text-align: center;
+	background-color: black;
+	font-family: Cooper Black, Helvetica, sans-serif;
+}
+#pergunta
+{
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+#resposta
+{
+  font-family: 'Lora', serif;
+}
+.form-div{
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
+}
+.form-texto
+{
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: none;
+    
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+.form p{
+    font-size: .89em;
+}
+.form.div.login{
+    margin-top: 100%;
+}
+.logout{
+  text-align: center;
+  color: green;
+  text-decoration: none;
+}
+.logout:hover
+{
+  text-decoration: none;
+  color:red;
+}
+.forgotpw
+{
+  font-size: 0.8em;
+  text-align: center;
+}
+/*-------------------- */
+
+p{
+    text-align: center;
+}
+
+/*.row{
+    margin-left:0px;
+    margin-right:0px;
+}*/
+
+/*#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+    height: 100%
+}*/
+
+
+.alinhamento
+{
+  text-align: left;
+}
